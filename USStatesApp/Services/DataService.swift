@@ -21,6 +21,10 @@ class DataService {
         let url = URL(string: urlString)
         self.stateDetails.removeAll()
         Alamofire.request(url!).responseJSON { (response) in
+            if response.error != nil {
+                completion(false)
+                return
+            }
             let json = JSON(response.data!)
             guard let restResponse = json["RestResponse"].dictionary else {
                 completion(false)

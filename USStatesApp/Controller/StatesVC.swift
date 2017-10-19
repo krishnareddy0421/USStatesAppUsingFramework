@@ -25,9 +25,16 @@ class StatesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             if success {
                 self.tableView.reloadData()
             } else {
-                // error handling
+                self.somethingWentWrongAlert()
             }
         }
+    }
+
+    func somethingWentWrongAlert() {
+        let alert = UIAlertController.init(title: "Something Went Wrong !!!", message: "Try Again", preferredStyle: .alert)
+        let cancelAction = UIAlertAction.init(title: "Cancel", style: .cancel, handler: nil)
+        alert.addAction(cancelAction)
+        self.present(alert, animated: true, completion: nil)
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
