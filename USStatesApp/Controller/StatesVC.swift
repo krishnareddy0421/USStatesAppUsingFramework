@@ -20,7 +20,6 @@ class StatesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.rowHeight = self.tableView.frame.size.height / 15
         
         DataService.instance.statesInfo(urlString: "http://services.groupkt.com/state/get/USA/all") { (success) in
             if success {
