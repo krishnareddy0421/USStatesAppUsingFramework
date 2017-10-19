@@ -1,0 +1,6 @@
+framework module Pods_USStatesApp {
+  umbrella header "Pods-USStatesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

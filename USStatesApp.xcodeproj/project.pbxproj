@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D287C92CDE8AE547E3C3A49 /* Pods_USStatesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2B9E9E2F78D5438DA32D10 /* Pods_USStatesApp.framework */; };
 		9E6379191F98F50E00868CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6379181F98F50E00868CE5 /* AppDelegate.swift */; };
-		9E63791B1F98F50E00868CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63791A1F98F50E00868CE5 /* ViewController.swift */; };
+		9E63791B1F98F50E00868CE5 /* StatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63791A1F98F50E00868CE5 /* StatesVC.swift */; };
 		9E63791E1F98F50E00868CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E63791C1F98F50E00868CE5 /* Main.storyboard */; };
 		9E6379201F98F50E00868CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E63791F1F98F50E00868CE5 /* Assets.xcassets */; };
 		9E6379231F98F50E00868CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6379211F98F50E00868CE5 /* LaunchScreen.storyboard */; };
+		9E63794A1F98F6A300868CE5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6379491F98F6A300868CE5 /* DataService.swift */; };
+		9E63794D1F98F6DA00868CE5 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63794C1F98F6DA00868CE5 /* State.swift */; };
+		9E6379501F98FEF200868CE5 /* CreatingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E63794F1F98FEE800868CE5 /* CreatingFramework.framework */; };
+		9E6379511F98FEF200868CE5 /* CreatingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E63794F1F98FEE800868CE5 /* CreatingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9E6379471F98F66C00868CE5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E6379511F98FEF200868CE5 /* CreatingFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		60767CEFD17344794873FE1E /* Pods-USStatesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USStatesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-USStatesApp/Pods-USStatesApp.release.xcconfig"; sourceTree = "<group>"; };
+		84F45DC78B14D3820078012F /* Pods-USStatesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USStatesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USStatesApp/Pods-USStatesApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9E6379151F98F50E00868CE5 /* USStatesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USStatesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6379181F98F50E00868CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E63791A1F98F50E00868CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E63791A1F98F50E00868CE5 /* StatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesVC.swift; sourceTree = "<group>"; };
 		9E63791D1F98F50E00868CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E63791F1F98F50E00868CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6379221F98F50E00868CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E6379241F98F50E00868CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6379491F98F6A300868CE5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9E63794C1F98F6DA00868CE5 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		9E63794F1F98FEE800868CE5 /* CreatingFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CreatingFramework.framework; sourceTree = "<group>"; };
+		BC2B9E9E2F78D5438DA32D10 /* Pods_USStatesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USStatesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6379501F98FEF200868CE5 /* CreatingFramework.framework in Frameworks */,
+				9D287C92CDE8AE547E3C3A49 /* Pods_USStatesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92E7F5011D638DD3C6C38906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F45DC78B14D3820078012F /* Pods-USStatesApp.debug.xcconfig */,
+				60767CEFD17344794873FE1E /* Pods-USStatesApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E63790C1F98F50E00868CE5 = {
 			isa = PBXGroup;
 			children = (
 				9E6379171F98F50E00868CE5 /* USStatesApp */,
 				9E6379161F98F50E00868CE5 /* Products */,
+				92E7F5011D638DD3C6C38906 /* Pods */,
+				CB44CB24D234471B7C9BC808 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,57 @@
 		9E6379171F98F50E00868CE5 /* USStatesApp */ = {
 			isa = PBXGroup;
 			children = (
-				9E6379181F98F50E00868CE5 /* AppDelegate.swift */,
-				9E63791A1F98F50E00868CE5 /* ViewController.swift */,
+				9E63794B1F98F6D100868CE5 /* Model */,
+				9E6379481F98F68A00868CE5 /* Services */,
+				9E63794E1F98F9F900868CE5 /* Controller */,
 				9E63791C1F98F50E00868CE5 /* Main.storyboard */,
+				9E6379181F98F50E00868CE5 /* AppDelegate.swift */,
 				9E63791F1F98F50E00868CE5 /* Assets.xcassets */,
 				9E6379211F98F50E00868CE5 /* LaunchScreen.storyboard */,
 				9E6379241F98F50E00868CE5 /* Info.plist */,
+				9E63792A1F98F57F00868CE5 /* Framework */,
 			);
 			path = USStatesApp;
+			sourceTree = "<group>";
+		};
+		9E63792A1F98F57F00868CE5 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9E63794F1F98FEE800868CE5 /* CreatingFramework.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		9E6379481F98F68A00868CE5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9E6379491F98F6A300868CE5 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9E63794B1F98F6D100868CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E63794C1F98F6DA00868CE5 /* State.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E63794E1F98F9F900868CE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E63791A1F98F50E00868CE5 /* StatesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB44CB24D234471B7C9BC808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B9E9E2F78D5438DA32D10 /* Pods_USStatesApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +152,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E6379271F98F50E00868CE5 /* Build configuration list for PBXNativeTarget "USStatesApp" */;
 			buildPhases = (
+				211AD949291E93AFB763B0D8 /* [CP] Check Pods Manifest.lock */,
 				9E6379111F98F50E00868CE5 /* Sources */,
 				9E6379121F98F50E00868CE5 /* Frameworks */,
 				9E6379131F98F50E00868CE5 /* Resources */,
+				9E6379471F98F66C00868CE5 /* Embed Frameworks */,
+				A8213A3C927504859DEC98A6 /* [CP] Embed Pods Frameworks */,
+				0EA74621FDE729FEB6DFC2BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +216,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EA74621FDE729FEB6DFC2BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USStatesApp/Pods-USStatesApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		211AD949291E93AFB763B0D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USStatesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8213A3C927504859DEC98A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-USStatesApp/Pods-USStatesApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USStatesApp/Pods-USStatesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E6379111F98F50E00868CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E63791B1F98F50E00868CE5 /* ViewController.swift in Sources */,
+				9E63794A1F98F6A300868CE5 /* DataService.swift in Sources */,
+				9E63791B1F98F50E00868CE5 /* StatesVC.swift in Sources */,
 				9E6379191F98F50E00868CE5 /* AppDelegate.swift in Sources */,
+				9E63794D1F98F6DA00868CE5 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +415,15 @@
 		};
 		9E6379281F98F50E00868CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F45DC78B14D3820078012F /* Pods-USStatesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZELVJRAH4Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/USStatesApp/Framework",
+				);
 				INFOPLIST_FILE = USStatesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ownApplicationDevelopment.USStatesApp;
@@ -287,10 +435,15 @@
 		};
 		9E6379291F98F50E00868CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60767CEFD17344794873FE1E /* Pods-USStatesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZELVJRAH4Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/USStatesApp/Framework",
+				);
 				INFOPLIST_FILE = USStatesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ownApplicationDevelopment.USStatesApp;
